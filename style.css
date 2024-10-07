@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#monCanvas{
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 10%;
+}
+
+.scoreContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 22%;
+    left: 70%;
+    width: 20%;
+    height: 5%;
+}
+#score-palier {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.scoreContainer > p:not(:last-child){
+    margin-right: 10%;
+    color: rgb(110, 110, 110);
+}
+
+.scoreContainer > p{
+    position: relative;
+    font-size: 2em;
+    font-family: 'sans-serif';
+}
