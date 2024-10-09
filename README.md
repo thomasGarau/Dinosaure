@@ -1,11 +1,14 @@
-Pour lancer le projet : 
+# Dinosaure 
 
-il faut tout d'abord installer le package :
+## Description
 
-npm install -g live-server
 
-puis lancer le serveur en local avec : 
+## Technologie 
 
-live-server
 
-le port seras indiqué dans le terminal par défaut 8080
+## Installation 
+live server : ```npm install -g live-server```
+
+## Utilisation
+Lancer un serveur local : ```live-server```
+l'adresse par défaut est : ```http://127.0.0.1:8080/```
