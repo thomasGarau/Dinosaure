@@ -26,7 +26,7 @@ export class Level1 extends LevelState {
     changeLevel() {
         if (this.player!.scoreDino > 100){
             this.player!.levelDino = 2;
-            this.environement!.speedEnv = 6;
+            this.environement!.speedEnv = 8;
             this.environement!.borneMin = 2000;
             this.environement!.borneMax = 4000;
             this.environement!.borneMinR = 300;
@@ -54,7 +54,7 @@ export class Level2 extends LevelState {
     changeLevel() {
         if (this.player!.scoreDino > 500){
             this.player!.levelDino += 3;
-            this.environement!.speedEnv = 7;
+            this.environement!.speedEnv = 11;
             this.environement!.borneMin = 1000;
             this.environement!.borneMax = 3000;
             this.environement!.borneMinR = 150;
@@ -82,7 +82,7 @@ export class Level3 extends LevelState {
     changeLevel() {
         if (this.player!.scoreDino > 1000){
             this.player!.levelDino += 6;
-            this.environement!.speedEnv = 8;
+            this.environement!.speedEnv = 13;
             this.environement!.borneMin = 600;
             this.environement!.borneMax = 1500;
             this.environement!.borneMinR = 100;

@@ -45,7 +45,8 @@ export class Obstacle {
     }
     display(spriteX, spriteY, spriteWidth, spriteHeight) {
         this.ctx.drawImage(this.spriteSheet, spriteX, spriteY, this.obstacleWidth, this.obstacleHeight, this.x, this.y, spriteWidth, spriteHeight);
-        this.ctx.strokeStyle = 'red';
-        this.ctx.strokeRect(this.x, this.y, this.obstacleWidth, this.obstacleHeight);
+        //décommenter pour afficher les hitbox des obstacles
+        //this.ctx.strokeStyle = 'red';
+        //this.ctx.strokeRect(this.x, this.y, this.obstacleWidth, this.obstacleHeight);
     }
 }

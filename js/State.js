@@ -18,10 +18,11 @@ export class State {
     }
     display(spriteX, spriteY, spriteWidth, spriteHeight) {
         this.ctx.drawImage(this.spriteSheet, spriteX, spriteY, spriteWidth, spriteHeight, this.dino.positionX, this.dino.positionY, 90, 100);
-        this.ctx.strokeStyle = 'green';
-        this.dino.hitbox.forEach(hitbox => {
-            this.ctx.strokeRect(hitbox.x, hitbox.y, hitbox.width, hitbox.height);
-        });
+        //décommenter pour afficher les hitbox du personnage
+        //this.ctx.strokeStyle = 'green';
+        //this.dino.hitbox.forEach(hitbox => {
+        //    this.ctx.strokeRect(hitbox.x, hitbox.y, hitbox.width, hitbox.height);
+        //});    
     }
     ;
     get stateUpdateInterval() {

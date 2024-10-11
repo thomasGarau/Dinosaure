@@ -18,7 +18,7 @@ export class Environement{
     };
     listObstacle: Obstacle[] = [];
     listCloud: Cloud[] = [];
-    protected speed: number = 5;
+    protected speed: number = 7;
     private borneMinSpawn: number = 3000; //miliseconde
     private borneMaxSpawn: number = 5000;
     private borneMinRange: number = 500;

@@ -15,7 +15,7 @@ export class Environement {
     };
     listObstacle = [];
     listCloud = [];
-    speed = 5;
+    speed = 7;
     borneMinSpawn = 3000; //miliseconde
     borneMaxSpawn = 5000;
     borneMinRange = 500;

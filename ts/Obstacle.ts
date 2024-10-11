@@ -69,7 +69,8 @@ export abstract class Obstacle {
             spriteWidth,
             spriteHeight,
         );
-        this.ctx.strokeStyle = 'red';
-        this.ctx.strokeRect(this.x, this.y, this.obstacleWidth, this.obstacleHeight);
+        //décommenter pour afficher les hitbox des obstacles
+        //this.ctx.strokeStyle = 'red';
+        //this.ctx.strokeRect(this.x, this.y, this.obstacleWidth, this.obstacleHeight);
     }
 }
